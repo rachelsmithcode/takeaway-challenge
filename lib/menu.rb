@@ -14,8 +14,6 @@ class Menu
     @item_list.push item
   end
 
-  #def new_item
-
   def show_items
     puts ""
     @item_list.each do |item|
@@ -23,5 +21,6 @@ class Menu
     end
     puts ""
   end
+
 
 end
